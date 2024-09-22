@@ -1,74 +1,75 @@
 
-# track-my-expenses
+# Building ExpenseList
 
-# Getting Started with Create React App
+## Description
+Building ExpenseList is a simple expense tracker mini-project built with React. It allows users to add new expenses using a form at the top of the page. The form includes validation to ensure that values are entered before submitting. Once an item is added, it appears in the list of expenses below, and the form is cleared for new entries.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Users can filter the expenses by category, and the list updates accordingly. Each item in the list displays the description, amount, and total. The user can also delete an item using the delete button. This project serves as a fantastic way to practice and improve React skills.
 
-## Available Scripts
+## Installation
+To run this project locally, follow these steps:
 
-In the project directory, you can run:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Shyarkhalil/Game-React-App.git
+   ```
 
-### `npm start`
+2. **Navigate to the project directory:**
+   ```bash
+   cd track-my-expenses
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Install the dependencies:**
+   ```bash
+   npm install
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-### `npm test`
+Once the server is running, the app will be available at `http://localhost:3000`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+Once the project is up and running on `http://localhost:3000`, follow these steps to use the "Building ExpenseList" app:
 
-### `npm run build`
+1. **Add an Expense:**
+   - At the top of the page, you’ll see a form to add a new expense.
+   - Enter the description and amount in the form fields.
+   - If you try to submit the form without filling in the required fields, validation messages will appear.
+   - After entering values, click the "Submit" button to add the expense to the list. The form will be cleared after submission.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Filter Expenses:**
+   - Below the form, you will see a list of all expenses.
+   - Use the category filter to display expenses from a specific category. The list will automatically update to reflect your selection.
+   
+3. **Delete an Expense:**
+   - Each item in the list has a "Delete" button. Click on it to remove the corresponding expense from the list.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
+- **Add Expenses:** Users can add new expenses by entering a description and amount in the form.
+- **Form Validation:** If the form is submitted without filling in required fields, validation messages will be displayed.
+- **Expense Filtering:** Users can filter the list of expenses by different categories (All, Utilities, Groceries, Entertainment).
+- **Delete Expenses:** Each expense item has a delete button for easy removal.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
+- **React:** For building the user interface.
+- **TypeScript:** Provides static typing for improved code quality.
+- **Bootstrap:** Used for styling and layout.
+- **Zod:** For form validation.
+- **Cypress:** For end-to-end testing.
 
-### `npm run eject`
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Please ensure your code follows best practices and includes appropriate documentation or comments where necessary. All contributions will be reviewed before merging. Thank you for contributing!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
